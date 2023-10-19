@@ -11,11 +11,11 @@ int sub(int a, int b)
 }
 int mul(int a, int b)
 {
-    //enter code for multiplication
+    return a*b;
 }
 int div(int a, int b)
 {
-    //enter code for division
+    return a/b;
 }
 void main()
 {
