@@ -2,20 +2,21 @@
 #include<conio.h>
 int add(int a, int b)
 {
-    //enter code for addition
+    return a+b;
 }
 int sub(int a, int b)
 {
-    //enter code for subtraction
+    return a-b;
     
 }
 int mul(int a, int b)
 {
     //enter code for multiplication
+    return a*b;
 }
 int div(int a, int b)
 {
-    //enter code for division
+    return a/b;
 }
 void main()
 {
