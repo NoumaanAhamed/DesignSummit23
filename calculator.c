@@ -14,7 +14,7 @@ int mul(int a, int b)
     //enter code for multiplication
     return a*b;
 }
-int div(int a, int b)
+double div(int a, int b)
 {
     return a/b;
 }
@@ -30,18 +30,18 @@ void main()
     switch(choice)
     {
         case 1: 
-        printf("Sum = %d",add(a,b));
-        break;
+            printf("Sum = %d",add(a,b));
+            break;
         case 2:
-        printf("Difference = %d",sub(a,b));
-        break; 
+            printf("Difference = %d",sub(a,b));
+            break; 
         case 3:
-        printf("Product = %d",mul(a,b));
-        break; 
+            printf("Product = %d",mul(a,b));
+            break; 
         case 4:
-        printf("Quotient = %d",div(a,b));
-        break; 
+            printf("Quotient = %d",div(a,b));
+            break; 
         default: 
-        printf("Invalid choice");
+            printf("Invalid choice");
     }
 }
